@@ -5,6 +5,7 @@
 - Filtern ( Ort, Beruf, Remote, Erstellungszeitraum, verschiedene Fähigkeiten usw.)
 - Stichwortsuche
 - Ordentliches und modernen Auflisten der Jobs
+- API Information von : https://jobsuche.api.bund.dev/
 
 ### Geplantes Design
 Erstellt mit excalidraw
