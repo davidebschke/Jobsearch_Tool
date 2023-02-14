@@ -8,16 +8,16 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/jobs")
-public class JobsController {
+public class JobController {
 
-    private final JobsService jobsService;
+    private final JobService jobService;
 
-    public JobsController(JobsService jobsService){
-        this.jobsService=jobsService;
+    public JobController(JobService jobsService){
+        this.jobService=jobsService;
     }
 
-    @GetMapping("/all")
+    @GetMapping
     public List<Job> listAllJobs(){
-        return jobsService.getAllJobs();
+        return jobService.getAllJobs();
     }
 }
