@@ -17,7 +17,7 @@ public class JobController {
     }
 
     @GetMapping
-    public List<Job> listAllJobs(){
+    public List<Jobdetails> listAllJobs(){
         return jobService.getAllJobs();
     }
 }
